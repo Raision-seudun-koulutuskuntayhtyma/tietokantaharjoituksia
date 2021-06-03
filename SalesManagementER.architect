@@ -65,7 +65,7 @@
   <table id="TAB15" populated="true" UUID="99f07f5d-ceb9-4bb8-b231-aa17a68d6a2f" name="Unit" objectType="TABLE" physicalName="unit" >
    <remarks>Confirmed unit names for GUI</remarks>
    <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL16" populated="true" UUID="a1a8c307-ba05-4d3a-81de-02345e10b505" autoIncrement="false" autoIncrementSequenceName="unit_unit_name_seq" defaultValue="" name="Unit Name" nullable="0" physicalName="unit_name" precision="20" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL16" populated="true" UUID="a1a8c307-ba05-4d3a-81de-02345e10b505" autoIncrement="false" autoIncrementSequenceName="unit_unit_name_seq_1" defaultValue="" name="Unit Name" nullable="0" physicalName="unit_name" precision="20" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
@@ -91,7 +91,7 @@
     <column id="COL22" populated="true" UUID="27c36064-ee0c-471f-ab0d-189cdbd1af71" autoIncrement="false" autoIncrementSequenceName="order_header_date_seq" defaultValue="" name="Date" nullable="1" physicalName="date" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
      <remarks></remarks>
     </column>
-    <column id="COL23" populated="true" UUID="15bc8114-f735-406a-a403-9c2b682ccd03" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL23" populated="true" UUID="15bc8114-f735-406a-a403-9c2b682ccd03" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq_1" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Autoincremented field</remarks>
     </column>
     <column id="COL24" populated="true" UUID="5664b6cc-1b98-41cb-abcc-cb95239bdd1b" autoIncrement="false" autoIncrementSequenceName="address_billing_address_id_seq" defaultValue="" name="Billing Address ID" nullable="0" physicalName="billing_address_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
@@ -120,10 +120,10 @@
     <column id="COL30" populated="true" UUID="1f45c6eb-11a7-4817-924f-a8be4e9e500c" autoIncrement="true" autoIncrementSequenceName="order_detail_order_detail_id_seq" defaultValue="" name="Order Detail ID" nullable="0" physicalName="order_detail_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Dummy key for future use</remarks>
     </column>
-    <column id="COL31" populated="true" UUID="b3d96335-ff7f-4637-98cb-95231c0c6f2d" autoIncrement="false" autoIncrementSequenceName="order_header_order_id_seq" defaultValue="" name="Order ID" nullable="0" physicalName="order_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL31" populated="true" UUID="b3d96335-ff7f-4637-98cb-95231c0c6f2d" autoIncrement="false" autoIncrementSequenceName="order_header_order_id_seq_1" defaultValue="" name="Order ID" nullable="0" physicalName="order_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL32" populated="true" UUID="7434965c-ac80-44db-9d58-c091529758cb" autoIncrement="false" autoIncrementSequenceName="product_product_id_seq" defaultValue="" name="Product ID" nullable="0" physicalName="product_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL32" populated="true" UUID="7434965c-ac80-44db-9d58-c091529758cb" autoIncrement="false" autoIncrementSequenceName="product_product_id_seq_1" defaultValue="" name="Product ID" nullable="0" physicalName="product_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL33" populated="true" UUID="94a126f5-e880-455b-8ac9-de600af2f708" autoIncrement="false" autoIncrementSequenceName="order_detail_amount_seq" defaultValue="1" name="Amount" nullable="0" physicalName="amount" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
@@ -143,7 +143,7 @@
   <table id="TAB36" populated="true" UUID="fad81b04-4174-4e62-97f1-1a6542345b47" name="Product Category" objectType="TABLE" physicalName="product_category" >
    <remarks></remarks>
    <folder id="FOLTAB361" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL37" populated="true" UUID="65d8c710-0aaf-42fc-8232-6cd336eeff5f" autoIncrement="false" autoIncrementSequenceName="product_category_category_name_seq" defaultValue="" name="Category Name" nullable="0" physicalName="category_name" precision="30" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL37" populated="true" UUID="65d8c710-0aaf-42fc-8232-6cd336eeff5f" autoIncrement="false" autoIncrementSequenceName="product_category_category_name_seq_1" defaultValue="" name="Category Name" nullable="0" physicalName="category_name" precision="30" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
@@ -160,7 +160,7 @@
   <table id="TAB40" populated="true" UUID="68ed300d-d89e-4c0f-8db1-618b0cfb75d8" name="Customer Type" objectType="TABLE" physicalName="customer_type" >
    <remarks></remarks>
    <folder id="FOLTAB401" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL41" populated="true" UUID="2d7b5186-1f30-43b7-9848-277c4c95afde" autoIncrement="false" autoIncrementSequenceName="customer_type_type_seq" defaultValue="" name="Type" nullable="0" physicalName="type" precision="30" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL41" populated="true" UUID="2d7b5186-1f30-43b7-9848-277c4c95afde" autoIncrement="false" autoIncrementSequenceName="customer_type_type_seq_1" defaultValue="" name="Type" nullable="0" physicalName="type" precision="30" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
@@ -180,7 +180,7 @@
     <column id="COL45" populated="true" UUID="ee7b24e0-b15d-4de9-8a43-c9ba759a8128" autoIncrement="true" autoIncrementSequenceName="address_address_id_seq" defaultValue="" name="Address ID" nullable="0" physicalName="address_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL46" populated="true" UUID="27f89956-cd66-49dd-aa5e-0b97594e3aaa" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL46" populated="true" UUID="27f89956-cd66-49dd-aa5e-0b97594e3aaa" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq_2" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Autoincremented field</remarks>
     </column>
     <column id="COL47" populated="true" UUID="35c7d95e-c157-49a6-b775-d8cf05c6908d" autoIncrement="false" autoIncrementSequenceName="address_street_seq" defaultValue="" name="Street Address" nullable="0" physicalName="street" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -206,10 +206,10 @@
   <table id="TAB52" populated="true" UUID="e39c1fd6-3df0-4f03-bc6c-1ec875a63cb1" name="Customer Contact" objectType="TABLE" physicalName="customer_contact" >
    <remarks></remarks>
    <folder id="FOLTAB521" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL53" populated="true" UUID="81590db7-08ff-4b2e-9603-ab0c412ced01" autoIncrement="true" autoIncrementSequenceName="customer_contact_contact_id_seq" defaultValue="" name="Contact ID" nullable="0" physicalName="contact_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL53" populated="true" UUID="81590db7-08ff-4b2e-9603-ab0c412ced01" autoIncrement="true" autoIncrementSequenceName="customer_contact_contact_id_seq_1" defaultValue="" name="Contact ID" nullable="0" physicalName="contact_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL54" populated="true" UUID="4240d6c6-cf28-475d-b5a2-0ad1a7127616" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL54" populated="true" UUID="4240d6c6-cf28-475d-b5a2-0ad1a7127616" autoIncrement="false" autoIncrementSequenceName="customer_customer_id_seq_3" defaultValue="" name="Customer ID" nullable="0" physicalName="customer_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Autoincremented field</remarks>
     </column>
     <column id="COL55" populated="true" UUID="ad8f2ecd-375b-4114-b942-be9e15c914d0" autoIncrement="false" autoIncrementSequenceName="customer_contact_first_name_seq" defaultValue="" name="First Name" nullable="0" physicalName="first_name" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
